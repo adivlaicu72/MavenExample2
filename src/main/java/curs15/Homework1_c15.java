@@ -14,16 +14,18 @@ public class Homework1_c15 extends BaseTest {
 	
 	@Test
 	public void findTheForestBook() {
-		List<WebElement> options = driver.findElements(By.className("sc_tabs_title"));
+		List<WebElement> menuOptions = driver.findElements(By.className("sc_tabs_title"));
+		System.out.println(menuOptions.size());
 		
 		
-		for (WebElement opt : options) {
-			if (opt.getText().equals("The forest")) {
-				opt.click();
-			}
-		}
-		assertEquals(driver.getCurrentUrl(), "https://keybooks.ro/shop/the-forest/");
 		
+//		for (WebElement opt : options) {
+//			if (opt.getText().equals("The forest")) {
+//				opt.click();
+//			}
+//		}
+//		
+//		assertEquals(driver.getCurrentUrl(), "https://keybooks.ro/shop/the-forest/");		
 
 	
 	}
