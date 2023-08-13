@@ -43,8 +43,7 @@ public class Homework2_c15 extends BaseTest{
 			} catch(Exception e) {
 				
 			}
-		}
-			
+		}		
 	//caut cartea si dau click pe ea
 	WebElement myBook=driver.findElement(By.cssSelector("article[class*='item_masonry']>h4[class*='title']>a[href*='story-about-me']")); 
 	myBook.click();

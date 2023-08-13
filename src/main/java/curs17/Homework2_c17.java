@@ -1,5 +1,6 @@
 package curs17;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.time.Duration;
@@ -12,6 +13,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import utils.BaseTest;
+
+
+//WebElement finish = driver.findElement(By.cssSelector("div[id='finish']>h4"));
+//assertEquals(finish.getText(), "Hello World!");
 
 @Test
 public class Homework2_c17 extends BaseTest{
@@ -48,5 +53,6 @@ public class Homework2_c17 extends BaseTest{
 		
 		}
 	}	
+	
 	
 }

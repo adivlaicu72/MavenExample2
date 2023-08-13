@@ -32,6 +32,8 @@ public class Homework1_c16 extends BaseTest{
 		WebElement thankYouText = driver.findElement(By.cssSelector("div [class='wpcf7-response-output']"));
 		boolean thankYouTextPresent = thankYouText.equals(thankYouText);
 		assertTrue(thankYouTextPresent, "Thank you for your message. It has been sent.");	
+		
+		
 	
 	}	
 

@@ -45,7 +45,7 @@ public class Homework1_c17 extends BaseTest{
 		WebElement theWickedKing4 = driver.findElement(By.className("flex-active"));
 		boolean theWickedKing4Present = theWickedKing4.isDisplayed();
 		assertTrue(theWickedKing4Present, "TheWickedKing2.png is exist");
-		
+
 		
 	}
 
